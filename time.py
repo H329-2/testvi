@@ -1,3 +1,8 @@
 import time
+import torch 
+from torch import nn
 
-print(time.time())
+class ShuffleNet(nn.Module):
+    def __init__(self) -> None:
+        super().__init__()
+        self.int = 1
